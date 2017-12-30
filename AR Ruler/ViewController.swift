@@ -75,6 +75,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         let b = end.position.y - start.position.y
         let c = end.position.z - start.position.z
         
+        // Pythagoras theorem
+        
         // distance = √((x2-x1))^2 + (y2-y1)^2 + (z2-z1)^2)
         
         let distance = sqrt(pow(a, 2) + pow(b, 2) + pow(c, 2))
